@@ -67,13 +67,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## To start
 To start the project do as follows.
-# 1:
+# 1: CLONE
  git clone <repo-link>
-# 2:
+# 2: INSTALL DEPENDENCIES
  npm install
-# 3:
  composer install
-# 4: 
+# 3: MIGRATE THE DB
  php artisan migrate:fresh --seed
-# 5: 
+# 4: START THE PROJECT 
  npm run dev
+ php artisan serve
